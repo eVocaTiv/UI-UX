@@ -58,7 +58,7 @@ body {
 
 .result {
     font-size: 40px;
-    font-color: white;
+    color: white;
 }
 
 .result > p {
