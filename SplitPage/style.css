@@ -4,8 +4,8 @@
     --left-button-hover-color: rgba(161, 11, 11, 0.3);
     --right-bg-color: rgba(150 , 50, 50, 0.5);
     --right-button-hover-color: rgba(92, 92, 92, 0.3);
-    --hover-width: 80%;
-    --other-width: 20%;
+    --hover-width: 75%;
+    --other-width: 25%;
     --speed: 1000ms;
 }
 
@@ -104,6 +104,7 @@ h1 {
 
 .hover-left .left{
     width: var(--hover-width);
+    background-image: url(alliance-heroes.jpg);
 }
 
 .hover-left .right{
@@ -112,6 +113,7 @@ h1 {
 
 .hover-right .right{
     width: var(--hover-width);
+    background-image: url(horde-heroes.jpg);
 }
 
 .hover-right .left{
@@ -124,4 +126,19 @@ h1 {
 
 .hover-right .left:before {
     z-index: 1000;
+}
+
+@media(max-width: 800px) {
+    h1 { 
+        font-size: 2rem;
+    }
+    .button {
+        width: 12rem;
+    }
+}
+
+@media(max-height: 700px){
+    .button {
+        top: 70;
+    }
 }
