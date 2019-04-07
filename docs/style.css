@@ -149,6 +149,6 @@ h1 {
 
 @media(max-height: 700px){
     .button {
-        top: 70;
+        top: 70%;
     }
 }
