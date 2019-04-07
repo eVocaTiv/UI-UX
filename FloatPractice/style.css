@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.boxes {
+    /* margin: 0px 2px 0px 2px; */
+    background-color:#344444;
+}
+
+.box {
+    width: calc( 25% - 24px );
+    float: left;
+    height: 250px;
+    text-align: center;
+    padding: 0px 2px 0px 2px;
+    margin: 0px 5px 0px 5px;
+    border: 5px solid green;
+}
+
+.box h2 {
+    border-bottom: 2px solid lightgreen;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+}
+
+/* .clear {
+    clear: both;
+} */
